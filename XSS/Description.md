@@ -23,7 +23,11 @@ $ curl "http://localhost:8880?name=Alexander"
 <html><body>Hello Alexander!</body></html>
 ```
 
-As you can see, we place the name into the html code without any filtering. So, we can add any html tags there. for example ```<b>Alexander</b>``` will make the text bold. In the same manner we can add some JavaScript there. 
+As you can see, we place the name into the html code without any filtering. So, we can add any html tags there. for example ```<b>Alexander</b>``` will make the text bold (URLencoded).
+
+http://localhost:8880?name=%3Cb%3EAlexander%3C%2Fb%3E
+
+In the same manner we can add some JavaScript there. 
 
 ### How to attack
 
